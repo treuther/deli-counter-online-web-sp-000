@@ -11,6 +11,6 @@ def line(katz_deli)
       position << "#{number}. #{customer}"
       number += 1
     end
-    puts "The line is currently: #{position}"
+    puts "The line is currently: #{position.join(" ")}"
 end
 end
